@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-vgfi0ye8g^(sm8(*=b%e-8yk5+83%6q9fz&aym$*mi-2zfdud7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://tweetapp-xxvh.onrender.com']
 
 
 # Application definition
