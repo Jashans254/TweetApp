@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-vgfi0ye8g^(sm8(*=b%e-8yk5+83%6q9fz&aym$*mi-2zfdud7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://tweetapp-xxvh.onrender.com']
+ALLOWED_HOSTS = ['tweetapp-xxvh.onrender.com']
 # ALLOWED_HOSTS = ['127.0.0.1']
 
 
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'chaiheadq.wsgi.application'
+WSGI_APPLICATION = 'chaiheadq.chaiheadq.wsgi.application'
 
 
 # Database
